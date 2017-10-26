@@ -8,8 +8,8 @@ import { HttpClient } from '@angular/common/http'
 
 import * as currency from '../actions/currency'
 
-import 'rxjs/operator/map'
-import 'rxjs/operator/switchMap'
+import 'rxjs/add/operator/map';
+import 'rxjs/add/operator/switchMap';
 
 @Injectable()
 export class CurrencyEffects {
